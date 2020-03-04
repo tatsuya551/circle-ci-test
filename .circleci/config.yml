@@ -17,7 +17,7 @@ jobs:
 
     working_directory: ~/circle-ci-test
 
-    step:
+    steps:
       - checkout
 
       - restore_cache:
