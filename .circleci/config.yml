@@ -13,7 +13,7 @@ jobs:
         environment:
           MYSQL_ALLOW_EMPTY_PASSWORD: true
           MYSQL_ROOT_PASSWORD: ''
-          MYSQL_DATABASE: circle-ci-test_test
+          MYSQL_DATABASE: circle_ci_test_test
 
     working_directory: ~/circle-ci-test
 
