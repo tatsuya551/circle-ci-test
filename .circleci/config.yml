@@ -28,8 +28,8 @@ jobs:
       - run:
           name: install dependencies
           command: |
-            gem install bundler:2.1.2
-            bundle _2.1.2_ install --jobs=4 --retry=3 --path vendor/bundle
+            gem install bundler:2.1.0
+            bundle _2.1.0_ install --jobs=4 --retry=3 --path vendor/bundle
 
       - save_cache:
           paths:
