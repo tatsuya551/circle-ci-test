@@ -33,7 +33,7 @@ jobs:
       - save_cache:
           paths:
             - ./vendor/bundle
-          keys: v1-dependencies-{{ checksum "Gemfile.lock" }}
+          key: v1-dependencies-{{ checksum "Gemfile.lock" }}
 
       - run:
           name: waiting for stating database
