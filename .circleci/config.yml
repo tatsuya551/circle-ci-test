@@ -15,7 +15,6 @@ jobs:
           MYSQL_ALLOW_EMPTY_PASSWORD: true
           MYSQL_ROOT_PASSWORD: ''
           MYSQL_DATABASE: circle-ci-test_test
-          MYSQL_ROOT_HOST: '%'
 
     working_directory: ~/circle-ci-test
 
