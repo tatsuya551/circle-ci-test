@@ -52,6 +52,10 @@ jobs:
                               --format progress \
                               $(circleci tests glob "spec/**/*_spec.rb" | circleci tests split --split-by=timings)
 
+      - run:
+        name: Rubocop
+        command: bundle exec rubocop
+
       - store_test_results:
           path: /tmp/test-results
       - store_artifacts:
