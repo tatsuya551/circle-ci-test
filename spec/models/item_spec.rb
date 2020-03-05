@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe Item, type: :model do
   it 'nameが存在し,textが5文字以上存在する時保存される' do
-    item = Item.new(name: 'name', text: '1234')
+    item = Item.new(name: 'name', text: '12345')
     expect(item).to be_valid
   end
 
